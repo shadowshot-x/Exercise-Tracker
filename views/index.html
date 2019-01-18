@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>QM FCC Exercise Tracker</title>
+    <meta name="description" content="FCC Exercise Tracker">
+    <link id="favicon" rel="icon" href="https://cdn.gomix.com/26d86f78-822e-48b3-a3ba-a72341bac3ef%2FTransport-Train-icon.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1>
+      Exrecise Tracker Fcc
+    </h1>
+  <div class="form-box">
+    <form method="post" action="/api/exercise/new-user">
+      <input type="text" name="username" placeholder="Username" required>
+      <button type="submit">SUBMIT</button>
+    </form>
+  </div>
+  <div class="form-box">
+    <form method="post" action="/api/exercise/add">
+      <input type="text" name="userId" placeholder="userId*" required>
+      <input type="text" name="description" placeholder="Description*" required>
+      <input type="number" name="duration" placeholder="Duration (in minutes)*" required>
+      <input type="date" name="date">
+      <button type="submit">SUBMIT</button>
+    </form>
+  </div>
+    
+
+    <script src="/client.js"></script>
+
+  </body>
+</html>
+
