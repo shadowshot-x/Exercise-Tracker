@@ -1,5 +1,9 @@
-Welcome to Glitch
+Exrecise Logger
 =================
+
+Enter the user id and get a log of exercises performed
+
+A simple fullstack app made with nodejs
 
 Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
